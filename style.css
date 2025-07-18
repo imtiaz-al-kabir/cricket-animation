@@ -1,0 +1,15 @@
+.field {
+  border: 1px solid steelblue;
+}
+
+.field:hover .bat {
+  transform: rotate(-60deg);
+  transform-origin: top right;
+}
+
+.ball {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+}
